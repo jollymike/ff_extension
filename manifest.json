@@ -1,7 +1,7 @@
 {
 
   "manifest_version": 2,
-  "name": "Borderify",
+  "name": "Colorify",
   "version": "1.0",
 
   "description": "Adds a red border to all webpages matching mozilla.org.",
@@ -13,7 +13,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["borderify.js"]
+      "js": ["colorify.js"]
     }
   ]
 
